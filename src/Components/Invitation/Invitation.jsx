@@ -11,8 +11,11 @@ const invitation = props => (
         <div className='invitation__content'>
             <h1>Olá, me chamo <span>Ésio Freitas</span> e eu sou</h1>
             <h1> graduando em <span>Engenharia de Software</span></h1>
-            <div className='invitation__button'>
-                <Button text='Conheça meus trabalhos!'/>
+            <div>
+                <Button classbutton='invitation'>
+                    <p>Conheça meus projetos!</p>
+					<i className="material-icons">arrow_forward</i>
+                </Button>
             </div>
         </div>
 

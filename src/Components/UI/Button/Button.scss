@@ -1,17 +1,44 @@
 @import '../../../Assets/sass/main.scss';
 
-.button {
-    border: .2rem solid $white;
-    padding: .5rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    width: auto;
-    font-weight: 500;
-    font-size: 2rem;
-    color: $white;
 
-    &:hover{
-        background-color: $white;
-        color: $dark-blue;
+.button{
+    border-radius: 2rem;
+    font-weight: 500;
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+    
+    &__invitation{
+        padding-left: .5rem;
+        font-size: 1.7rem;
+        border: .1rem solid $white;
+        margin-top: 1rem;
+        &:hover{
+            background-color: $white;
+            border-color: $white;
+            p{
+                color: $dark-blue;
+            }
+            i{
+                color: $dark-blue;
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__cards{
+        padding: .3rem;
+        width: 7rem; 
+        background-color: $blue;
+        color: $blue;
+        border: .1rem solid $blue;
+        font-size: 1.2rem;
+
+    
+        &:hover{
+            background-color: $blue;
+            color: $blue;
+            font-size: 1.2rem;
+        }
     }
 }
