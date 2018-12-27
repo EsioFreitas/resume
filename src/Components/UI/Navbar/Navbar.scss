@@ -1,0 +1,17 @@
+@import '../../../Assets/sass/main.scss';
+
+nav{
+    
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    ul{
+        li{
+            display: inline-block;
+            margin: 1rem;
+            color: $white;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+    }
+}

@@ -18,8 +18,6 @@ const invitation = props => (
                 </Button>
             </div>
         </div>
-
-
     </header>
 );
 
