@@ -1,0 +1,17 @@
+@import '../../../Assets/sass/main.scss';
+
+.button {
+    border: .2rem solid $white;
+    padding: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: auto;
+    font-weight: 500;
+    font-size: 2rem;
+    color: $white;
+
+    &:hover{
+        background-color: $white;
+        color: $dark-blue;
+    }
+}

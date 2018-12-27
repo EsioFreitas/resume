@@ -13,12 +13,18 @@
         height: 100vh;
     }
 
-    &__text{
+    &__content{
         position: absolute;
         text-align: center;
     }
 
     span{
         color: $red;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
     }
 }

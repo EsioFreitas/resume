@@ -1,14 +1,19 @@
 import React from 'react'
 import Particles from 'react-particles-js'
 
+import Button from '../UI/Button/Button'
+
 import './Invitation.scss'
 
 const invitation = props => (
     <header className='invitation'>
         <Particles params={particlesObj} className='invitation__particles'/> 
-        <div className='invitation__text'>
+        <div className='invitation__content'>
             <h1>Olá, me chamo <span>Ésio Freitas</span> e eu sou</h1>
             <h1> graduando em <span>Engenharia de Software</span></h1>
+            <div className='invitation__button'>
+                <Button text='Conheça meus trabalhos!'/>
+            </div>
         </div>
 
 
