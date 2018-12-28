@@ -6,7 +6,7 @@ import './About.scss'
 import foto from '../../Assets/img/esio.jpg'
 
 const about = () =>(
-    <div className='about'>
+    <section className='about'>
         <Title title='SOBRE'/>
         <div className='about__content'>
             <img src={foto} alt='Esio Freitas'/>
@@ -21,7 +21,7 @@ const about = () =>(
                 <strong> desenvolvedor Full-Stack</strong>.
             </p>
         </div>
-    </div>
+    </section>
 );
 
 export default about;
