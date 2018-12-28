@@ -5,8 +5,8 @@ import Title from '../UI/Title/Title'
 import './About.scss'
 
 const about = () =>(
-    <div>
-        <Title/>
+    <div className='about'>
+        <Title title='SOBRE'/>
         <div>
             <img/>
             <p></p>

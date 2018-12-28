@@ -1,0 +1,20 @@
+@import '../../../Assets/sass/main.scss';
+
+.title{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+        background-color: $white;
+        width: 20rem;
+        height: .5rem;
+        border-radius: 1em;
+        box-shadow: -2px 2px 1px 1px $black;
+    }
+
+    h1{
+        text-shadow: -2px 2px 1px $black;
+    }
+}
