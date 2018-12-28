@@ -2,4 +2,22 @@
 
 .about{
     background-color: $yellow;
+
+    img {
+        border-radius: 50%;
+        width: 25rem;
+    }
+
+    &__content{
+        display: flex;  
+        align-items: center;
+        justify-content: space-around;
+
+        p{
+            width: 50%;
+            text-align: justify;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
 }
