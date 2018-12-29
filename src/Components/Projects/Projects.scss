@@ -13,15 +13,46 @@
         .project{
             width: 20rem;
             height: 20rem;
-            background-color: red;
+            background-color: $black;
             border-radius: .5rem;
             box-shadow: -2px 2px 1px 1px $black;
             margin: 1rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
 
             &:hover{
                 background-color: $white;
                 transition:  0.3s ease-in;
+                opacity: 1;
+            }
+            
+            &--container{
+                opacity: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
 
+                &:hover{
+                    opacity: 1;
+                    transition:  .5s ease-in;
+                }
+
+                .project__text{
+                    h1{
+                        color: $dark-green;
+                    }
+
+                    h2{
+                        color: $blue;
+                    }
+                }
+
+                .button{
+                    display: flex;
+                    justify-content: center;
+                }
             }
         }
     }
