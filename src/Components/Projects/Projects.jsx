@@ -20,7 +20,7 @@ class Projects extends Component {
                     {
                         Object.keys(projects).map(key=>(
                             <div key={key} className='project'>
-                                <div class='project--container'>
+                                <div className='project--container'>
                                     <div className='project__text'>
                                         <h1>{projects[key].title}</h1>
                                         <h2>{projects[key].subtitle}</h2>

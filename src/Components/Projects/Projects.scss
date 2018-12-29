@@ -2,7 +2,7 @@
 
 .projects-page{
     background-color: $red;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     
     .projects{
         display: flex;
@@ -23,7 +23,7 @@
 
             &:hover{
                 background-color: $white;
-                transition:  0.3s ease-in;
+                transition:  0.1s ease-in-out;
                 opacity: 1;
             }
             
@@ -36,7 +36,7 @@
 
                 &:hover{
                     opacity: 1;
-                    transition:  .5s ease-in;
+                    transition: .5s ease-in-out;
                 }
 
                 .project__text{
@@ -56,5 +56,4 @@
             }
         }
     }
-
 }
