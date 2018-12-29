@@ -1,6 +1,29 @@
 @import '../../Assets/sass/main.scss';
 
-.projects{
+.projects-page{
     background-color: $red;
     padding-bottom: 3rem;
+    
+    .projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        .project{
+            width: 20rem;
+            height: 20rem;
+            background-color: red;
+            border-radius: .5rem;
+            box-shadow: -2px 2px 1px 1px $black;
+            margin: 1rem;
+
+            &:hover{
+                background-color: $white;
+                transition:  0.3s ease-in;
+
+            }
+        }
+    }
+
 }
