@@ -4,6 +4,8 @@ import Invitation from './Components/Invitation/Invitation'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 import Skills from './Components/Skills/Skills'
+import Education from './Components/Education/Education'
+import Experience from './Components/Experience/Experience'
 
 import './App.css';
 
@@ -16,6 +18,8 @@ class App extends Component {
         <About/>
         <Projects/>
         <Skills/>
+        <Education/>
+        <Experience/>
       </Fragment>
     );
   }
