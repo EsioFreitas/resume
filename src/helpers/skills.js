@@ -1,6 +1,6 @@
 const skills = {
     tecnologias: {
-        title: 'Conhecimento técnico',
+        title: 'Tecnologia',
         option: ['Vanilla JS', 'React JS', 'Python', 'Flask', 'CSS', 'HTML', 'Ruby on Rails', 'C++', 'Git', 'Sass']
     },
     Soft:{

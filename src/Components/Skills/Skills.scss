@@ -1,6 +1,29 @@
 @import '../../Assets/sass/main.scss';
 
-.skills{
+.skills-page{
     background-color: $dark-green;
     padding-bottom: 4rem;
+
+    &__skills{
+        display: flex;
+        justify-content: space-around;
+
+        h1{
+            padding-bottom: 1rem;
+            color: $dark-blue;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        &__skill{
+            li {
+                list-style: none;
+                font-size: 1.5rem;
+                p{
+                    color: $white;
+                    padding: .1rem;
+                }
+            }
+        }
+    }
 }
