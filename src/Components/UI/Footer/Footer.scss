@@ -1,0 +1,25 @@
+@import '../../../Assets/sass/main.scss';
+
+footer {
+    background-color: $black;
+    width: 100%;
+    display: flex;
+    padding: .2rem 1rem;
+    padding-top: .5rem; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        color: $white;
+    }
+    img{
+        color: $white;
+        height: 3rem;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1)
+        }
+
+    }
+}

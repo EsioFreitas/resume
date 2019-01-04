@@ -6,7 +6,7 @@ import './About.scss'
 import foto from '../../Assets/img/esio.jpg'
 
 const about = () =>(
-    <section className='about'>
+    <section className='about' id='about-page'>
         <Title title='SOBRE'/>
         <div className='about__content'>
             <img src={foto} alt='Esio Freitas'/>

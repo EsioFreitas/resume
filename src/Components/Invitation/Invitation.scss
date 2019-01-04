@@ -5,8 +5,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;    
-    
+    justify-content: center;        
     
     &__particles{
         width: 100%;
@@ -21,7 +20,7 @@
             display: flex;
             justify-content: center;
             margin-top: 1rem;
-
+            
             p{
                 color: $white;
                 font-size: 2rem;
@@ -41,6 +40,6 @@
     }
 }
 
-.h {
-    position: relative;
+.scrollhor {
+    text-decoration: none;
 }
