@@ -2,7 +2,7 @@
 
 .skills-page{
     background-color: $dark-green;
-    padding-bottom: 4rem;
+    padding-bottom: 3.25rem;
 
     &__skills{
         display: flex;
@@ -21,7 +21,7 @@
                 font-size: 1.5rem;
                 p{
                     color: $white;
-                    padding: .1rem;
+                    padding: .2rem;
                 }
             }
         }

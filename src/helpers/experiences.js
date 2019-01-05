@@ -1,8 +1,14 @@
 const experiences = {
+    monitorOO:{
+        jobTitle: 'Monitor',
+        company:'Universidade de Brasilia - UnB',
+        duration:'2017 - 2018',
+        description:'Como consequência do meu bom rendimento acadêmico, fui responsável por auxiliar os professores e tirar dúvidas dos alunos nas seguintes matérias: Orientação a Objetos e Introdução a Engenharia'
+    },
     orcestra: {
         jobTitle: 'Assessor de Marketing',
-        company:'Empresa Junior de Eng. de Software',
-        duration:'2013 - 2016',
+        company:'Empresa Junior de Eng. de Software - Orc\'estra',
+        duration:'2017 - 2018',
         description:'Atuei em uma equipe de desenvolvimento, o qual pude aprimorar meus conhecimentos em ReactJs e Sass. Além disso, exerci como assessor de marketing trabalhando com produção de conteúdo, planejamento estratégico, manutenção do site empresarial e social media.'
     },
     cascata: {

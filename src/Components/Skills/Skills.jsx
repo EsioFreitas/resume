@@ -16,7 +16,7 @@ const skills = () =>(
                     <h1>{skill[key].title}</h1>
                     <ul>
                     {
-                        Object.keys(skill[key].option).map(option=>(
+                        Object.keys(skill[key].option.sort()).map(option=>(
                             <li key={option}><p>{skill[key].option[option]}</p></li>
                         ))
                     }

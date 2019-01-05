@@ -15,7 +15,7 @@ const invitation = props => (
 			<Scrollchor to="#about-page" className='scrollhor'>
 				<div>
 					<Button classbutton='invitation'>
-						<p>Conheça meus projetos!</p>
+						<p>Conheça mais sobre mim!</p>
 						<i className="material-icons">arrow_forward</i>
 					</Button>
 				</div>
