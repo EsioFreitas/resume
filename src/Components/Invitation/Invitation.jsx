@@ -12,14 +12,14 @@ const invitation = props => (
         <div className='invitation__content'>
             <h1>Olá, me chamo <span>Ésio Freitas</span> e eu sou</h1>
             <h1> graduando em <span>Engenharia de Software</span></h1>
-			<Scrollchor to="#about-page" className='scrollhor'>
 				<div>
-					<Button classbutton='invitation'>
-						<p>Conheça mais sobre mim!</p>
-						<i className="material-icons">arrow_forward</i>
-					</Button>
+					<Scrollchor to="#about-page" className='scrollhor'>
+							<Button classbutton='invitation'>
+								<p>Conheça mais sobre mim!</p>
+								<i className="material-icons">arrow_forward</i>
+							</Button>
+					</Scrollchor>
 				</div>
-			</Scrollchor>
         </div>
     </header>
 );
