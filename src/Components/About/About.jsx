@@ -17,7 +17,7 @@ const about = () =>(
                 entusiasta no desenvolvimento web com experiência em 
                 <strong> React</strong>, <strong>Ruby on Rails</strong>, <strong>Flask </strong>
                  e <strong>Sass</strong>. Sou muito familiarizado com trabalho em equipe e procuro 
-                 sempre tomar iniciativa nelas. Por fim, meu objetivo profissional é me tornar um 
+                 sempre tomar iniciativa nos projetos que participo. Por fim, meu objetivo profissional é me tornar um 
                 <strong> desenvolvedor Full-Stack</strong>.
             </p>
         </div>

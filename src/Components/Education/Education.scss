@@ -1,12 +1,13 @@
 @import '../../Assets/sass/main.scss';
 
-.education{
+.education-page{
     background-color: $green;
     padding-bottom: 4rem;
 
-    &__text{
+    .education__text{
         font-family: $text;
         margin-left: 3rem;
+        width: 40%;
 
         h1{
             color: $dark-blue;

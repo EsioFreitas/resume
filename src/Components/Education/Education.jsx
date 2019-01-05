@@ -5,7 +5,7 @@ import Title from '../UI/Title/Title'
 import './Education.scss'
 
 const education = () =>(
-    <section className='education'>
+    <section className='education-page'>
         <Title title="EDUCAÇÃO"/>
         <div className='education__text'>
             <h1>Engenharia de Software</h1>
