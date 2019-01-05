@@ -23,8 +23,8 @@ const educations = {
         title: 'Extracurriculares',
         data:{
             alura:{
-                curso: 'Diversos cursos',
-                college: 'Grupo Caelum - Alura',
+                curso: 'Grupo Caelum - Alura',
+                college: 'Cursos diversos',
                 certificado: 'https://cursos.alura.com.br/user/esio-gustavo/fullCertificate/bda262a61e66cd552fb0d36822bdbd0e'
             }
         }
