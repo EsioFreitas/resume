@@ -13,8 +13,9 @@ const education = () =>{
             <div className='education'>
             {
                 Object.keys(educations).map(key=>(
-                    <div key={key} className='education__content'>
+                    <div key={key} className='education__main'>
                         <h1 className='education__title'>{educations[key].title}</h1>
+                        <div className='education__content'>
                             {
                                 Object.keys(educations[key].data).map(content =>(
                                     <div className='education__text' key={content}>
@@ -28,6 +29,7 @@ const education = () =>{
                                     </div>
                                 ))
                             }
+                        </div>
                     </div>
                 ))
             }

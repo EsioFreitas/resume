@@ -12,9 +12,14 @@ const educations = {
     idioma:{
         title: 'Idiomas',
         data:{
-            cil:{
-                curso: 'Inglês Básico',
-                college: 'Centro Interescolar de Línguas do Gama',
+            english:{
+                curso: 'Inglês - Básico',
+                college: 'CIL do Gama',
+                duration: '2015 - 2017'
+            },
+            spanish:{
+                curso: 'Espanhol - Básico',
+                college: 'CIL do Gama',
                 duration: '2015 - 2017'
             }
         }

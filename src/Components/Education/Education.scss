@@ -2,40 +2,45 @@
 
 .education-page{
     background-color: $green;
-    padding-bottom: 2rem;
 
     .education{
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 0 6rem;
-        &__content{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 3rem;
+
+        &__main{
             margin-bottom: 2rem;
+            
             .education__title{
                 color: $dark-blue;
                 font-weight: bold;
                 font-size: 3rem;
             }
 
-            .education__text{
-                font-family: $text;
-        
-                h2{
-                    font-size: 2rem;
-                }
-                
-                p{
-                    color: $white;
-                    font-size: 1.5rem;
-                    a{
-                        text-decoration: none;
-                        color: $dark-blue;
-                        font-weight: bold;
+            .education__content{
+
+                .education__text{
+                    font-family: $text;
+                    margin-bottom: 1rem;
+                                                    
+                    h2{
+                        font-size: 2rem;
+                        color: $black;
+                    }
+                    
+                    p{
+                        color: $white;
+                        font-size: 1.5rem;
+                        a{
+                            text-decoration: none;
+                            color: $dark-blue;
+                            font-weight: bold;
+                        }
                     }
                 }
             }
         }
-
     }
-
 }
