@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 import Title from '../UI/Title/Title'
 import Project from '../../helpers/Projects'
 import Button from '../UI/Button/Button'
+import ProjectMod from './Project/Project'
 
 import './Projects.scss'
 
@@ -26,7 +27,8 @@ class Projects extends Component {
                                         <h2>{projects[key].subtitle}</h2>
                                     </div>
                                     <div className='button'>
-                                        <Button classbutton='cards'>Leia sobre</Button>
+                                        <Button classbutton='cards'
+                                                click={()=> this.showProject(key)}>Leia sobre</Button>
                                     </div>
 
                                 </div>
@@ -34,10 +36,15 @@ class Projects extends Component {
                         ))
                     }
                 </div>
-                
             </section>
         );
     }
+
+    showProject = (project) =>{
+        this.props.showProject()
+        this.props.modalProject(<ProjectMod data={this.state.projects[project]}/>)
+        console.log(project)
+    } 
 }
 
 export default Projects;
