@@ -1,0 +1,13 @@
+.modal {
+    position: fixed;
+    z-index: 500;
+    //background-color: $white;
+    width: auto;
+    //border: .2em solid $light-blue;
+    border-radius: .2em;
+   // box-shadow: 5px 5px 5px $black;
+    left: 26.5%;
+    top: 16%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
