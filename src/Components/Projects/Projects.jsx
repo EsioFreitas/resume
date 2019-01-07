@@ -19,8 +19,12 @@ class Projects extends Component {
                 <Title title='PROJETOS'/>
                 <div className='projects'>
                     {
+                        
                         Object.keys(projects).map(key=>(
-                            <div key={key} className='project'>
+                            <div key={key} className='project'
+                                  style={{
+                                    backgroundImage: `url(${projects[key].photo})`
+                                 }} >
                                 <div className='project--container'>
                                     <div className='project__text'>
                                         <h1>{projects[key].title}</h1>
