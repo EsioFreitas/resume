@@ -13,7 +13,14 @@ const project = props =>{
         <div className='project'>
             <div className='project__img'>
                 <Carousel>
-                    <img src={e} alt='a'/>
+                    {
+                        Object.keys(data.carousel).map(key=>(
+                            <img src={data.carousel[key]} alt='a' key={key}>
+                            
+                            {console.log(key)}
+                            </img>
+                            ))
+                    }
                 </Carousel>
             </div>
             <div className='project__content'>
