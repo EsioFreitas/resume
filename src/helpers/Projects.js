@@ -25,7 +25,7 @@ const projects = {
       subtitle: 'Ruby on Rails',
       whats:'Rede social de blogers',
       technologies: ['Ruby on Rails', 'Bootstrap'],
-      description: 'Um texto bem legal do projeto aqui ta',
+      description: 'Nuntium é uma rede social de bloggers. No site o usuário pode ver diversos artigos por tags ou produzir seus próprios artigos.',
       repository: 'https://github.com/EsioFreitas/Nuntium',
       photo: nuntiumPhoto, 
       carousel:[nc1, nc2, nc3, nc4, nc5]
@@ -35,7 +35,7 @@ const projects = {
       subtitle: 'React + Flask',
       whats:'Controle fiscal e financeiro',
       technologies: ['React', 'Flask', 'Sass', 'Redux'],
-      description: 'Um texto bem legal do projeto aqui ta',
+      description: 'O Kalkuli é um sistema que busca ajudar micro e pequenas empresas que precisem fazer controle de suas notas fiscais periodicamente de maneira rápida e prática.',
       repository: 'https://github.com/Kalkuli',
       photo: kalkuliPhoto,
       carousel: [kc1, kc2, kc3, kc4, kc5, kc6]
@@ -45,7 +45,7 @@ const projects = {
       subtitle: 'React',
       whats:'Meu portfólio',
       technologies: ['React', 'Sass'],
-      description: 'Um texto bem legal do projeto aqui ta',
+      description: 'É uma aplicação web para poder fornecer meus dados profissionais e portfólio de projetos que eu fiz/participei',
       repository: 'https://github.com/EsioFreitas/resume',
       photo: portfolioPhoto,
       carousel: [pc1, pc2, pc3, pc4]

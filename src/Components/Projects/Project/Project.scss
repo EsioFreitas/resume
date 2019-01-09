@@ -3,7 +3,6 @@
 .project{
 
     &__img{
-        background-color: blue;
         width: 60rem;
         img{
             width: inherit;
@@ -11,6 +10,7 @@
     }
 
     &__content{
+        padding: 0 .5rem;
         h1{
             color: $dark-blue;
             font-size: 2.5rem;
@@ -21,8 +21,9 @@
             color: $blue;
             margin-bottom: .8rem;
         }
-
+        
         p{
+            width: 50rem;
             color: $black;
             font-size: 1.3rem;
         }
