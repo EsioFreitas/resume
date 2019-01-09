@@ -26,9 +26,9 @@ class Projects extends Component {
                                     backgroundImage: `url(${projects[key].photo})`
                                  }} >
                                 <div className='project--container'>
-                                    <div className='project__text'>
-                                        <h1>{projects[key].title}</h1>
-                                        <h2>{projects[key].subtitle}</h2>
+                                    <div className='project__text '>
+                                        <h1 className='tracking-in-expand'>{projects[key].title}</h1>
+                                        <h2 className='tracking-in-expand'>{projects[key].subtitle}</h2>
                                     </div>
                                     <div className='button'>
                                         <Button classbutton='cards'
