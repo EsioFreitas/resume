@@ -1,5 +1,6 @@
 import portfolioPhoto from '../Assets/img/portfolio.jpg'
 import kalkuliPhoto from '../Assets/img/kalkuli.jpg'
+import nuntiumPhoto from '../Assets/img/nuntium.jpg'
 
 const projects = {
     nuntium:{
@@ -9,7 +10,7 @@ const projects = {
       technologies: ['Ruby on Rails', 'Bootstrap'],
       description: 'Um texto bem legal do projeto aqui ta',
       repository: 'https://github.com/EsioFreitas/Nuntium',
-      photo: portfolioPhoto 
+      photo: nuntiumPhoto 
     },
     kalkuli:{
       title: 'Kalkuli',
@@ -26,7 +27,7 @@ const projects = {
       whats:'Meu portfólio',
       technologies: ['React', 'Sass'],
       description: 'Um texto bem legal do projeto aqui ta',
-      repository: 'https://github.com/EsioFreitas/portfolio',
+      repository: 'https://github.com/EsioFreitas/resume',
       photo: portfolioPhoto 
     }
   }

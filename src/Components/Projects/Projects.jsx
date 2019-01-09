@@ -13,14 +13,14 @@ class Projects extends Component {
         projects: Project
     }
     render(){
-        let {projects} = this.state 
+        let {projects} = this.state
         return(
             <section className='projects-page'>
                 <Title title='PROJETOS'/>
                 <div className='projects'>
                     {
                         
-                        Object.keys(projects).map(key=>(
+                        Object.keys(projects).reverse().map(key=>(
                             <div key={key} className='project'
                                   style={{
                                     backgroundImage: `url(${projects[key].photo})`
