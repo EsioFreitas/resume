@@ -1,6 +1,9 @@
 import React from 'react'
 
 import githubIcon from '../../../Assets/icons/github-logo.svg'
+import e from '../../../Assets/img/nuntium.jpg'
+
+import Carousel from 'nuka-carousel'
 
 import './Project.scss'
 
@@ -8,7 +11,11 @@ const project = props =>{
     let data = props.data
     return(
         <div className='project'>
-            <div className='project__img' alt='Portfólio'/>
+            <div className='project__img'>
+                <Carousel>
+                    <img src={e} alt='a'/>
+                </Carousel>
+            </div>
             <div className='project__content'>
                 <h1>{data.title}</h1>
                 <h2>{data.whats}</h2>
