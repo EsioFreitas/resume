@@ -8,6 +8,7 @@ import Education from './Components/Education/Education'
 import Experience from './Components/Experience/Experience'
 import Footer from './Components/Footer/Footer'
 import Modal from './Components/UI/Modal/Modal'
+import Navbar from './Components/UI/Navbar/Navbar'
 
 import './App.css';
 
@@ -25,7 +26,11 @@ class App extends Component {
 
         <Fragment>
           <Invitation/>
+          <Navbar/>
+          <div className='a'>
           <About/>
+
+          </div>
           <Projects showProject={this.showProject}
                     closeProject={this.closeProject}
                     modalProject={this.modalProject}/>

@@ -15,7 +15,7 @@ class Projects extends Component {
     render(){
         let {projects} = this.state
         return(
-            <section className='projects-page'>
+            <section className='projects-page' id='projects-page'>
                 <Title title='PROJETOS'/>
                 <div className='projects'>
                     {

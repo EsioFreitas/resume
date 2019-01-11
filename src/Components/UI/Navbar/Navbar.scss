@@ -5,13 +5,39 @@ nav{
     background-color: $black;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 .01rem 1rem .0rem $black;
+    z-index: 1;
     ul{
         li{
             display: inline-block;
             margin: 1rem;
-            color: $white;
             font-weight: 600;
             font-size: 1.2rem;
+            
+            a{
+                text-decoration: none;
+                color: $white;
+                cursor: pointer;
+
+            }
+
+            #about:hover{
+                color: $yellow;
+            }
+            #project:hover{
+                color: $red;
+            }
+            #skills:hover{
+                color: $dark-green;
+            }
+            #education:hover{
+                color: $green;
+            }
+            #experience:hover{
+                color: $blue;
+            }
         }
     }
 }

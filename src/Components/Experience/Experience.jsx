@@ -7,7 +7,7 @@ import './Experience.scss'
 
 let experiences = Experiences
 const experience = () =>(
-    <section className='experiences-page'>
+    <section className='experiences-page' id='experience-page'>
         <Title title="EXPERIÊNCIA"/>
         <div className='experiences'>
             {

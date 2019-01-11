@@ -7,7 +7,7 @@ import './Skills.scss'
 
 let skill = Skills 
 const skills = () =>(
-    <section className='skills-page'>
+    <section className='skills-page' id='skills-page'>
         <Title title="HABILIDADES"/>
         <div className='skills-page__skills'>
         {

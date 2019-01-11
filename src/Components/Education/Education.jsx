@@ -8,7 +8,7 @@ import './Education.scss'
 const education = () =>{
     let educations = Educations
     return(
-        <section className='education-page'>
+        <section className='education-page' id='education-page'>
             <Title title="EDUCAÇÃO"/>
             <div className='education'>
             {
