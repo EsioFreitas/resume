@@ -1,10 +1,10 @@
 @import '../../../Assets//sass/main.scss';
 
 .backDrop {
-  position: absolute;
-  z-index: 500;
+  position: fixed;
+  z-index: 400;
   background-color: $black;
-  height: 566%;
+  height: 100%;
   width: 100%;
   opacity: .9;
 }

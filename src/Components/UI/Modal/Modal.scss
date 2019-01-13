@@ -4,12 +4,8 @@
     position: fixed;
     z-index: 500;
     background-color: $white;
-    width: auto;
     border-radius: .2rem;
-    box-shadow: -5px 5px 5px $black;
     left: 18%;
     top: 3%;
-    padding: .5rem;
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
+    padding: .5rem .7rem;
   }
