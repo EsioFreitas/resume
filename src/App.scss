@@ -1,8 +1,14 @@
+@import './Assets/sass/main.scss';
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  //font-family: $text;
+  font-family: $text;
+}
+
+h1 {
+  color: $white;
 }

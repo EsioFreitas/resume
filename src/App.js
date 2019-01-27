@@ -26,7 +26,7 @@ class App extends Component {
 
         <Fragment>
           <Invitation/>
-          <Navbar/>
+          {/* <Navbar/>
           <div className='a'>
           <About/>
 
@@ -37,7 +37,7 @@ class App extends Component {
           <Skills/>
           <Education/>
           <Experience/>
-          <Footer/>
+          <Footer/> */}
         </Fragment>
       </div>
     );
