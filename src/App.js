@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer'
 import Modal from './Components/UI/Modal/Modal'
 import Navbar from './Components/UI/Navbar/Navbar'
 
-import './App.css';
+import './App.scss';
 
 let content = null
 class App extends Component {

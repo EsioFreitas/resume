@@ -1,3 +1,13 @@
-@import './base/color.scss';
-@import './base/base';
-@import './base/typograph.scss';
+@import url('https://fonts.googleapis.com/css?family=Cabin:500,600,700|Roboto:400,500');
+
+$title: 'Cabin', sans-serif;
+$text: 'Roboto', sans-serif;
+
+$white: #F1F0E2;
+$black: #252525;
+$blue: #3694CD;
+$dark-blue: #112F41;
+$green: #4FB98E;
+$dark-green: #068587;
+$yellow: #F2B134;
+$red: #DE4746;
