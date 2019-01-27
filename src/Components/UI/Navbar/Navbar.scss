@@ -1,43 +1,60 @@
 @import '../../../Assets/sass/main.scss';
 
 nav{
+    display: none;
+} 
+
+@media (min-width: 768px){
+    nav{
+        background-color: $black;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 .01rem 1rem .0rem $black;
+        z-index: 1;
+        padding: .3rem 0;
+        ul{
+            li{
+                display: inline-block;
+                margin: .5rem;
+                font-weight: 600;
+                font-size: 1.3rem;
+                
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    cursor: pointer;
     
-    background-color: $black;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 .01rem 1rem .0rem $black;
-    z-index: 1;
-    ul{
-        li{
-            display: inline-block;
-            margin: 1rem;
-            font-weight: 600;
-            font-size: 1.2rem;
-            
-            a{
-                text-decoration: none;
-                color: $white;
-                cursor: pointer;
-
-            }
-
-            #about:hover{
-                color: $yellow;
-            }
-            #project:hover{
-                color: $red;
-            }
-            #skills:hover{
-                color: $dark-green;
-            }
-            #education:hover{
-                color: $green;
-            }
-            #experience:hover{
-                color: $blue;
+                }
+    
+                #about:hover{
+                    color: $yellow;
+                }
+                #project:hover{
+                    color: $red;
+                }
+                #skills:hover{
+                    color: $dark-green;
+                }
+                #education:hover{
+                    color: $green;
+                }
+                #experience:hover{
+                    color: $blue;
+                }
             }
         }
-    }
+    } 
+}
+
+@media (min-width: 970px){
+    nav{
+        ul{
+            li{
+                margin: .5rem;
+                font-size: 1.5rem;
+            }   
+        }
+    } 
 }

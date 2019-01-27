@@ -12,6 +12,7 @@ const navbar = () =>(
             <li><Scrollchor to='skills-page' id='skills'>HABILIDADES</Scrollchor></li>
             <li><Scrollchor to='education-page' id='education'>EDUCAÇÃO</Scrollchor></li>
             <li><Scrollchor to='experience-page' id='experience'>EXPERIÊNCIA</Scrollchor></li>
+            <li><Scrollchor to='experience-page' id='experience'>CONTATO</Scrollchor></li>
         </ul>
     </nav>
 );

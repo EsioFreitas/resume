@@ -26,8 +26,8 @@ class App extends Component {
 
         <Fragment>
           <Invitation/>
-          {/* <Navbar/>
-          <div className='a'>
+          <Navbar/>
+          {/*<div className='a'>
           <About/>
 
           </div>

@@ -42,37 +42,20 @@
     text-decoration: none;
 }
 
-@media (min-width: 50rem){
+@media (min-width: 970px){
     .invitation {
         &__content{
-
             h1{
                 font-size: 4rem;
             }
-    
-            div{
-                display: flex;
-                justify-content: center;
-                margin-top: 1rem;
-                
+            div{                
                 p {
-                    color: $white;
                     font-size: 2.5rem;
                 }
                 i{
-                    color: $white;
                     font-size: 3em;
-                    transition:  0.5s ease-in-out;
                 }
             }
         }
-    
-        span{
-            color: $red;
-        }
-    }
-    
-    .scrollhor {
-        text-decoration: none;
     }
 }
