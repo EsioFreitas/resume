@@ -27,17 +27,17 @@ class App extends Component {
         <Fragment>
           <Invitation/>
           <Navbar/>
-          {/*<div className='a'>
+          <div className='a'>
           <About/>
 
           </div>
-          <Projects showProject={this.showProject}
+          {/* <Projects showProject={this.showProject}
                     closeProject={this.closeProject}
                     modalProject={this.modalProject}/>
           <Skills/>
           <Education/>
           <Experience/>
-          <Footer/> */}
+          <Footer/>  */}
         </Fragment>
       </div>
     );

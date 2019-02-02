@@ -2,11 +2,11 @@
 
 .about{
     background-color: $yellow;
-    padding-bottom: 3.5rem;
+    padding-bottom: 2rem;
 
     img {
         border-radius: 50%;
-        width: 25rem;
+        width: 19rem;
     }
 
     &__content{
@@ -16,10 +16,24 @@
         flex-wrap: wrap;
 
         p{
-            width: 50%;
+            width: 90%;
             text-align: justify;
             font-size: 1.5rem;
             font-weight: 500;
+            margin-top: 3rem;
         }
     }
+}
+
+@media (min-width: 768px){
+    .about{    
+        padding-bottom: 3.5rem;
+
+        &__content{
+            p{
+                width: 50%;
+            }
+        }
+    }
+
 }

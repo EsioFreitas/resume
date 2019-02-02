@@ -1,21 +1,22 @@
 @import '../../../Assets/sass/main.scss';
 
-.title{
-    padding: 3rem;
-    padding-top: 5rem;
+.title {
+    padding: .5rem;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     div{
         background-color: $white;
-        width: 20rem;
+        width: 20%;
         height: .5rem;
         border-radius: 1em;
         box-shadow: -2px 2px 1px 1px $black;
     }
 
     h1{
+        font-size: 3rem;
         text-shadow: -2px 2px 1px $black;
     }
 }
