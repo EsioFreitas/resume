@@ -31,10 +31,10 @@ class App extends Component {
           <About/>
 
           </div>
-          {/* <Projects showProject={this.showProject}
+           <Projects showProject={this.showProject}
                     closeProject={this.closeProject}
                     modalProject={this.modalProject}/>
-          <Skills/>
+          {/*<Skills/>
           <Education/>
           <Experience/>
           <Footer/>  */}

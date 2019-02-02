@@ -1,7 +1,6 @@
 @import '../../../Assets/sass/main.scss';
 
 .title {
-    padding: .5rem;
     padding: 2rem 0;
     display: flex;
     justify-content: space-around;
@@ -16,7 +15,17 @@
     }
 
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
         text-shadow: -2px 2px 1px $black;
     }
+}
+
+@media (min-width: 768px){
+    .title {
+        padding: 4rem 0;
+    
+        h1{
+            font-size: 3rem;
+        }
+    } 
 }
