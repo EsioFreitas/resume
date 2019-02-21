@@ -38,8 +38,8 @@ class App extends Component {
           */}
           <Skills/>
           <Education/>
-          {/* <Experience/>
-          <Footer/>   */}
+           <Experience/>
+          {/*<Footer/>   */}
         </Fragment>
       </div>
     );

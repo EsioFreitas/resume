@@ -11,12 +11,12 @@
         flex-wrap: wrap;
         
         &__experience{
-            width: 50%;
+            //max-width: 30rem;
             padding: 1rem 3rem;
             margin-bottom: .6rem; 
             &__title{
                 color: $dark-blue;
-                font-size: 3rem;
+                font-size: 2rem;
             }
     
             &__description{
@@ -28,6 +28,16 @@
             &__duration{
                 font-size: 1.5rem;
                 color: $white;
+            }
+        }
+    }
+}
+
+@media (min-width: 970px){
+    .experiences-page{
+        .experiences{
+            &__experience{
+                width: 50%;
             }
         }
     }
