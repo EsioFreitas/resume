@@ -37,8 +37,8 @@ class App extends Component {
                     modalProject={this.modalProject}/>
           */}
           <Skills/>
-         {/*  <Education/>
-          <Experience/>
+          <Education/>
+          {/* <Experience/>
           <Footer/>   */}
         </Fragment>
       </div>

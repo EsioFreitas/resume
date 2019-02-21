@@ -24,8 +24,8 @@ const educations = {
             }
         }
     },
-    extracurricular:{
-        title: 'Extracurriculares',
+    cursos:{
+        title: 'Cursos',
         data:{
             alura:{
                 curso: 'Grupo Caelum - Alura',
