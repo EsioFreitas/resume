@@ -4,6 +4,8 @@ import Title from '../UI/Title/Title'
 import Project from '../../helpers/Projects'
 import Button from '../UI/Button/Button'
 import ProjectMod from './Project/Project'
+import {withRouter} from 'react-router-dom'
+
 
 import './Projects.scss'
 
@@ -44,11 +46,12 @@ class Projects extends Component {
         );
     }
 
-    showProject = (project) =>{
+    showProject = (projectKey) =>{
         this.props.showProject()
+        this.props.history.push('/project/'+projectKey);
         //this.props.modalProject(<ProjectMod data={this.state.projects[project]}/>)
-        console.log(project)
+        //console.log(project)
     } 
 }
 
-export default Projects;
+export default withRouter (Projects);

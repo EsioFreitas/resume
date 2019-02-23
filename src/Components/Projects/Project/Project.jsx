@@ -2,16 +2,23 @@ import React from 'react'
 
 import githubIcon from '../../../Assets/icons/github-logo.svg'
 
-import Carousel from 'nuka-carousel'
+// import Carousel from 'nuka-carousel'
 
 import './Project.scss'
 
 const project = props =>{
-    let data = props.data
+    let data = {
+        title: 'Nuntium',
+        subtitle: 'Ruby on Rails',
+        whats:'Rede social de blogers',
+        technologies: ['Ruby on Rails', 'Bootstrap'],
+        description: 'Nuntium é uma rede social de bloggers. No site o usuário pode ver diversos artigos por tags ou produzir seus próprios artigos.',
+        repository: 'https://github.com/EsioFreitas/Nuntium',
+      }
     return(
         <div className='project'>
             <div className='project__img'>
-                <Carousel>
+                {/* <Carousel>
                     {
                         Object.keys(data.carousel).map(key=>(
                             <img src={data.carousel[key]} alt='a' key={key}>
@@ -20,7 +27,7 @@ const project = props =>{
                             </img>
                             ))
                     }
-                </Carousel>
+                </Carousel> */}
             </div>
             <div className='project__content'>
                 <h1>{data.title}</h1>

@@ -31,7 +31,7 @@ class Homepage extends Component {
 
   showProject = () =>{
     console.log("foi")
-    return <Redirect from="/p#projects-page" to="/" /> 
+    return <Redirect to="/" /> 
 }
 }
 
