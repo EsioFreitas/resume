@@ -5,6 +5,7 @@ import Project from '../../helpers/Projects'
 import Button from '../UI/Button/Button'
 import ProjectMod from './Project/Project'
 import {withRouter} from 'react-router-dom'
+import {connect} from 'react-redux'
 
 
 import './Projects.scss'
@@ -49,9 +50,20 @@ class Projects extends Component {
     showProject = (projectKey) =>{
         this.props.showProject()
         this.props.history.push('/project/'+projectKey);
-        //this.props.modalProject(<ProjectMod data={this.state.projects[project]}/>)
-        //console.log(project)
+        this.props.getProjetcId(projectKey)
     } 
 }
 
-export default withRouter (Projects);
+const mapStateToProps = state =>{
+    return{
+        id: state.postId
+    }
+}
+
+const mapDispatchToProps = dispatch =>{
+    return{
+        getProjetcId: (id) => dispatch({type: 'GETPROJECTID', projectId: id})
+    }
+};
+
+export default connect(mapStateToProps,mapDispatchToProps)(withRouter (Projects));
