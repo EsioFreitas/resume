@@ -7,7 +7,7 @@ import Projects from '../../Components/Projects/Projects'
 import Skills from '../../Components/Skills/Skills'
 import Education from '../../Components/Education/Education'
 import Experience from '../../Components/Experience/Experience'
-import Footer from '../../Components/Footer/Footer'
+import Footer from '../../Components/UI/Footer/Footer'
 import Navbar from '../../Components/UI/Navbar/Navbar'
 class Homepage extends Component {
   render() {
