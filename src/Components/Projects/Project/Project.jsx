@@ -13,8 +13,8 @@ class project extends Component {
         return(
              <div className='project'>
                 <Navbar/>
-                <div className='project__img'>
-                    {/* <Carousel>
+                {/*<div className='project__img'>
+                     <Carousel>
                         {
                             Object.keys(data.carousel).map(key=>(
                                 <img src={data.carousel[key]} alt='a' key={key}>
@@ -23,8 +23,9 @@ class project extends Component {
                                 </img>
                                 ))
                         }
-                    </Carousel> */}
-                </div>
+                    </Carousel> 
+                </div>*/}
+                <div className='image'/>
                 <div className='project__content'>
                 {console.log(this.props)}
                     <h1>{data.title}</h1>
@@ -32,10 +33,10 @@ class project extends Component {
                     <p>{data.description}</p>
                     <div className='tecnologies'>
                         <p><strong>Tecnologias: </strong> {data.technologies.join(', ')}.</p>
-                        <a target="blank" href={data.repository}>
-                            <img alt='GitHub' className='pulsate-fwd pulsate-fwd ' src={githubIcon} />
-                        </a>
                     </div>
+                    <a target="blank" href={data.repository}>
+                        <img alt='GitHub' className='pulsate-fwd pulsate-fwd ' src={githubIcon} />
+                    </a>
                 </div> 
             </div> 
         )
