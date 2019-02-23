@@ -46,7 +46,7 @@ class Projects extends Component {
 
     showProject = (project) =>{
         this.props.showProject()
-        this.props.modalProject(<ProjectMod data={this.state.projects[project]}/>)
+        //this.props.modalProject(<ProjectMod data={this.state.projects[project]}/>)
         console.log(project)
     } 
 }

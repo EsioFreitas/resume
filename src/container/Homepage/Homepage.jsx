@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {Route} from 'react-router-dom'
+import {Route, Redirect, withRouter} from 'react-router-dom'
 
 import Invitation from '../../Components/Invitation/Invitation'
 import About from '../../Components/About/About'
@@ -9,13 +9,7 @@ import Education from '../../Components/Education/Education'
 import Experience from '../../Components/Experience/Experience'
 import Footer from '../../Components/Footer/Footer'
 import Navbar from '../../Components/UI/Navbar/Navbar'
-
-
-
 class Homepage extends Component {
-  state={
-    modalShow: false
-  }
   render() {
     return (
         <Fragment>
@@ -29,10 +23,16 @@ class Homepage extends Component {
           <Education/>
             <Experience/>
           <Footer/> 
-        {console.log(this.props)}
+            {/* <Route path="/" exact render={()=><h1>ooi</h1>} / > */}
+            {console.log(this.props)}
         </Fragment>
     );
   }
+
+  showProject = () =>{
+    console.log("foi")
+    return <Redirect from="/p#projects-page" to="/" /> 
+}
 }
 
-export default Homepage;
+export default withRouter (Homepage);
