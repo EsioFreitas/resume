@@ -1,7 +1,6 @@
 import React, {Component}from 'react'
 import {connect} from 'react-redux'
-import {withRouter} from 'react-router-dom'
-
+import Navbar from '../../UI/Navbar/ProjectNavbar/Navbar'
 
 import githubIcon from '../../../Assets/icons/github-logo.svg';
 // import Carousel from 'nuka-carousel'
@@ -13,7 +12,7 @@ class project extends Component {
         let data = this.props.project
         return(
              <div className='project'>
-             
+                <Navbar/>
                 <div className='project__img'>
                     {/* <Carousel>
                         {

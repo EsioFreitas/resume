@@ -8,7 +8,7 @@ import Skills from '../../Components/Skills/Skills'
 import Education from '../../Components/Education/Education'
 import Experience from '../../Components/Experience/Experience'
 import Footer from '../../Components/UI/Footer/Footer'
-import Navbar from '../../Components/UI/Navbar/Navbar'
+import Navbar from '../../Components/UI/Navbar/HomeNavbar/Navbar'
 class Homepage extends Component {
   render() {
     return (
