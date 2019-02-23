@@ -1,15 +1,47 @@
 .project-navbar{
     position: fixed;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
     background-color: black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 .5rem;
     a{  
-        width: 100%;
         color: white;
         text-decoration: none;
     } 
+
+    :hover{
+        animation: wobble-hor-bottom 0.8s both;
+    }
+
+    i{
+        font-size: 300%;
+    }
 }
+
+@keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-2px) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(2px) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-2px) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(3px) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-2px) rotate(-1.2deg);
+    }
+  }
+  
