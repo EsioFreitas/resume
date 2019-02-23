@@ -16,23 +16,14 @@ class Homepage extends Component {
           <Invitation/>
           <Navbar/>
           <About/>
-          <Projects showProject={this.showProject}
-                    closeProject={this.closeProject}
-                    modalProject={this.modalProject}/>
+          <Projects/>
           <Skills/>
           <Education/>
             <Experience/>
-          <Footer/> 
-            {/* <Route path="/" exact render={()=><h1>ooi</h1>} / > */}
-            {console.log(this.props)}
+          <Footer/>
         </Fragment>
     );
   }
-
-  showProject = () =>{
-    console.log("foi")
-    return <Redirect to="/" /> 
-}
 }
 
 export default withRouter (Homepage);

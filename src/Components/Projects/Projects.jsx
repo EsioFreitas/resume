@@ -48,7 +48,6 @@ class Projects extends Component {
     }
 
     showProject = (projectKey) =>{
-        this.props.showProject()
         this.props.history.push('/project/'+projectKey);
         this.props.getProjetcId(projectKey)
     } 
