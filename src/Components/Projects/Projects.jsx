@@ -48,8 +48,9 @@ class Projects extends Component {
     }
 
     showProject = (projectKey) =>{
-        this.props.history.push('/project/'+projectKey);
+        this.props.history.push(projectKey);
         this.props.getProjetcId(projectKey)
+        this.props.setProjectState()
     } 
 }
 
@@ -61,8 +62,9 @@ const mapStateToProps = state =>{
 
 const mapDispatchToProps = dispatch =>{
     return{
-        getProjetcId: (id) => dispatch({type: 'GETPROJECTID', projectId: id})
+        getProjetcId: (id) => dispatch({type: 'GETPROJECTID', projectId: id}),
+        setProjectState: () => dispatch({type: 'VIEWPROJECT'})
     }
 };
 
-export default connect(mapStateToProps,mapDispatchToProps)(withRouter (Projects));
+export default withRouter(connect(mapStateToProps,mapDispatchToProps)(Projects));

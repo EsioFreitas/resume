@@ -1,6 +1,7 @@
 import React, { Component, Fragment} from 'react';
-import { Route, withRouter} from 'react-router-dom'
+import { Route, withRouter, Switch, Redirect} from 'react-router-dom'
 import Project from './Components/Projects/Project/Project'
+import {connect} from 'react-redux'
 
 import Homepage from './container/Homepage/Homepage';
 
@@ -10,13 +11,20 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Route path='/p' exact component={Homepage}/>
-        <Route path='/' exact render={()=><h1>oi</h1>}/>
-        <Route path='/project/kalkuli' exact render={Project}/>
-
+        <Switch>
+          <Route path={'/'+this.props.id}  component={Project}/>
+          <Route path='/' exact component={Homepage}/>
+          <Redirect to="/" />
+        </Switch>
       </Fragment>
     );
   }
 }
 
-export default withRouter (App);
+const mapStateToProps = state =>{
+  return{
+      id: state.postId
+  }
+}
+
+export default withRouter(connect(mapStateToProps) (App));
