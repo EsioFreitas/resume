@@ -1,7 +1,6 @@
 import React from 'react'
 
 import githubIcon from '../../../Assets/icons/github-logo.svg'
-import e from '../../../Assets/img/nuntium.jpg'
 
 import Carousel from 'nuka-carousel'
 
