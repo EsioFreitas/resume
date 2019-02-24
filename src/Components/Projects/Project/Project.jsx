@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import Navbar from '../../UI/Navbar/ProjectNavbar/Navbar'
 
 import githubIcon from '../../../Assets/icons/github-logo.svg';
-// import Carousel from 'nuka-carousel'
+import Carousel from 'nuka-carousel'
 
 import './Project.scss'
 
@@ -13,19 +13,16 @@ class project extends Component {
         return(
              <div className='project'>
                 <Navbar/>
-                {/*<div className='project__img'>
-                     <Carousel>
+
+                <div className='project__img'>
+                     <Carousel autoplay={true} >
                         {
                             Object.keys(data.carousel).map(key=>(
-                                <img src={data.carousel[key]} alt='a' key={key}>
-                                
-                                {console.log(key)}
-                                </img>
+                                <img src={data.carousel[key]} alt='Carousel image' key={key}/>
                                 ))
                         }
                     </Carousel> 
-                </div>*/}
-                <div className='image'/>
+                </div>
                 <div className='project__content'>
                 {console.log(this.props)}
                     <h1>{data.title}</h1>
