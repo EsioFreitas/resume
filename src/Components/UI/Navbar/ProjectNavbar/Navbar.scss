@@ -1,8 +1,10 @@
+@import '../../../../Assets/sass/main.scss';
+
 .project-navbar{
     position: fixed;
     width: 3rem;
     height: 3rem;
-    background-color: black;
+    background-color: $black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@
     z-index: 200;
 
     a{  
-        color: white;
+        color: $white;
         text-decoration: none;
     } 
 

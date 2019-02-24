@@ -2,15 +2,13 @@
 
 .project{
     position: relative;
-    //width: 90%;
     &__img{
         width: inherit;
         z-index: 1;
-        //max-height: 20rem;
         height: inherit;
 
         img{
-            height: 33rem;
+            max-height: 33.5rem;
         }
     }
 
