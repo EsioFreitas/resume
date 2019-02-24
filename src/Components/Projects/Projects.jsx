@@ -3,7 +3,6 @@ import React, {Component} from 'react'
 import Title from '../UI/Title/Title'
 import Project from '../../helpers/Projects'
 import Button from '../UI/Button/Button'
-import ProjectMod from './Project/Project'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
 

@@ -24,7 +24,7 @@ const education = () =>{
                                         {
                                             educations[key].data[content].duration ? 
                                             <p>{educations[key].data[content].duration}</p> :
-                                            <p>Acesso aos certificados:  <a href={educations[key].data[content].certificado} target="_blank">AQUI</a></p>
+                                            <p>Acesso aos certificados:  <a href={educations[key].data[content].certificado} rel="noopener noreferrer" target="_blank">AQUI</a></p>
                                         }
                                     </div>
                                 ))

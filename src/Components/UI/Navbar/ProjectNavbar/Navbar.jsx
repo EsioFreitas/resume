@@ -7,7 +7,7 @@ const navbar = props =>(
     <ul className='project-navbar'>
         <li>
             <NavLink to='/' exact>
-                <i class="material-icons">
+                <i className="material-icons">
                     chevron_left
                 </i>
             </NavLink>

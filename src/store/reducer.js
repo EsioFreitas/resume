@@ -17,7 +17,6 @@ const reducer = (state = inicialState, action) =>{
             ...state,
             projects: projectHelper[state.postId]
         }
-        console.log(state.projects)
     }
     return state;
 }

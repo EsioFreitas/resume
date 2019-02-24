@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {Route, Redirect, withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom'
 
 import Invitation from '../../Components/Invitation/Invitation'
 import About from '../../Components/About/About'

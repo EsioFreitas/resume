@@ -18,7 +18,7 @@ class project extends Component {
                      <Carousel autoplay={true} >
                         {
                             Object.keys(data.carousel).map(key=>(
-                                <img src={data.carousel[key]} alt='Carousel image' key={key}/>
+                                <img src={data.carousel[key]} alt='Carousel item' key={key}/>
                                 ))
                         }
                     </Carousel> 
@@ -31,7 +31,7 @@ class project extends Component {
                     <div className='tecnologies'>
                         <p><strong>Tecnologias: </strong> {data.technologies.join(', ')}.</p>
                     </div>
-                    <a target="blank" href={data.repository}>
+                    <a target="blank"  href={data.repository}>
                         <img alt='GitHub' className='pulsate-fwd pulsate-fwd ' src={githubIcon} />
                     </a>
                 </div> 
