@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "07cd6a065a74e4feefd3",
-    "url": "/resume/static/css/main.e1b5c0a3.chunk.css"
+    "revision": "e7b7026ad2cd26dc6553",
+    "url": "/resume/static/css/main.2894d152.chunk.css"
   },
   {
-    "revision": "07cd6a065a74e4feefd3",
-    "url": "/resume/static/js/main.07cd6a06.chunk.js"
+    "revision": "e7b7026ad2cd26dc6553",
+    "url": "/resume/static/js/main.e7b7026a.chunk.js"
   },
   {
-    "revision": "eda1560a259434de7eb8",
-    "url": "/resume/static/js/1.eda1560a.chunk.js"
+    "revision": "6dc8d17ec380c89a86e7",
+    "url": "/resume/static/js/1.6dc8d17e.chunk.js"
   },
   {
     "revision": "18bea22a2a5d1e1d102c",
     "url": "/resume/static/js/runtime~main.18bea22a.js"
   },
   {
-    "revision": "cf3b09d46c3436d21ee0e0d730dd05eb",
-    "url": "/resume/static/media/nuntium.cf3b09d4.jpg"
+    "revision": "76d344f08412543c74ccd1fb2493d607",
+    "url": "/resume/static/media/github-logo.76d344f0.svg"
   },
   {
     "revision": "207252f9e2bee238d1517ce819b03f9c",
@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/resume/static/media/kc6.37589259.png"
   },
   {
+    "revision": "cf3b09d46c3436d21ee0e0d730dd05eb",
+    "url": "/resume/static/media/nuntium.cf3b09d4.jpg"
+  },
+  {
     "revision": "15cab4544f43705bdb1a165c3880b9a2",
     "url": "/resume/static/media/nc1.15cab454.png"
   },
@@ -92,10 +96,6 @@ self.__precacheManifest = [
     "url": "/resume/static/media/nc5.7e6506fc.png"
   },
   {
-    "revision": "76d344f08412543c74ccd1fb2493d607",
-    "url": "/resume/static/media/github-logo.76d344f0.svg"
-  },
-  {
     "revision": "f265b3166e6e281b102ad2007de01f68",
     "url": "/resume/static/media/linkedin.f265b316.svg"
   },
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/github.856e61fb.svg"
   },
   {
-    "revision": "1ca8d254b4b724b932a668ac96455895",
+    "revision": "2baedc712247ada226f63be9bb9b3f5f",
     "url": "/resume/index.html"
   }
 ];
