@@ -42,6 +42,7 @@ class Projects extends Component {
                         ))
                     }
                 </div>
+               <h2 className='invite'>Conheça outros <a href="https://github.com/EsioFreitas?tab=repositories">projetos</a>...</h2>
             </section>
         );
     }

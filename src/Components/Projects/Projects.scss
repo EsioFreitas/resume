@@ -69,7 +69,31 @@
             }
         }
     }
+
+    .invite{
+        color: $white;
+        text-shadow: -2px 2px 1px $black;
+        text-align: center;
+        margin: 1.5rem 0;
+        //margin-bottom: 0;
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: $blue;
+            animation: text-shadow-drop-bl 1s infinite both;
+        }
+    }
 }
+
+@keyframes text-shadow-drop-bl {
+    0% {
+      text-shadow: -.5px .5px .5px $black;
+    }
+    100% {
+      text-shadow: -2px 2px 1px $black;
+    }
+  }
+  
 
  @keyframes tracking-in-expand {
     0% {
@@ -87,7 +111,7 @@
   @media (min-width: 768px){
     .projects-page{
         background-color: $red;
-        padding-bottom: 4rem;
+        padding-bottom: 1rem;
     }
       
   }
