@@ -25,7 +25,7 @@ const projects = {
       subtitle: 'Ruby on Rails',
       whats:'Rede social de blogers',
       technologies: ['Ruby on Rails', 'Bootstrap'],
-      description: 'Nuntium é uma rede social de bloggers. No site o usuário pode ver diversos artigos por tags ou produzir seus próprios artigos.',
+      description: 'Nuntium foi a primeira aplicação web que participei. O intuito era criar alguma aplicação que usasse Ruby on rails como backend para poder conhecer a arquitetura MVC e ter maior noção de como a web funciona. A aplicação é uma rede social de bloggers, no qual o usuário pode ver diversos artigos por tags ou produzir seus próprios conteúdos, caso cadastre.',
       repository: 'https://github.com/EsioFreitas/Nuntium',
       photo: nuntiumPhoto, 
       carousel:[nc1, nc2, nc3, nc4, nc5]
@@ -35,7 +35,7 @@ const projects = {
       subtitle: 'React + Flask',
       whats:'Controle fiscal e financeiro',
       technologies: ['React', 'Flask', 'Sass', 'Redux'],
-      description: 'O Kalkuli é um sistema que busca ajudar micro e pequenas empresas que precisem fazer controle de suas notas fiscais periodicamente de maneira rápida e prática.',
+      description: 'Kalkuli foi um projeto feito na disciplina Métodos de Desenvolvimento de Software, o qual tem o intuito de fazer os alunos produzirem um produto de software por meio de técnicas de desenvolvimento. O nosso problema era: extrair dados de notas fiscais. Por isso criamos um sistema que extrai os dados das notas e os interpretam por meio de relatórios que o usuário pode fazer por data ou por tag. Além disso, nos deu a oportunidade de desenvolver uma aplicação com a arquitetura de microservices.',
       repository: 'https://github.com/Kalkuli',
       photo: kalkuliPhoto,
       carousel: [kc1, kc2, kc3, kc4, kc5, kc6]
@@ -44,8 +44,8 @@ const projects = {
       title: 'Portfólio',
       subtitle: 'React',
       whats:'Meu portfólio',
-      technologies: ['React', 'Sass'],
-      description: 'É uma aplicação web para poder fornecer meus dados profissionais e portfólio de projetos que eu fiz/participei',
+      technologies: ['React', 'Sass', 'Redux'],
+      description: 'É uma aplicação web para melhor apresentar meus dados profissionais e portfólio de projetos que eu fiz/participei',
       repository: 'https://github.com/EsioFreitas/resume',
       photo: portfolioPhoto,
       carousel: [pc1, pc2, pc3, pc4]
